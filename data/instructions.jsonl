@@ -1,0 +1,34 @@
+# Every response in this toy set follows the "Answer: <word>" format so the
+# before/after eval can measure whether LoRA training teaches the format.
+{"instruction": "Give the sentiment in one word: I loved the movie", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: This was terrible", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: An amazing experience", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: I hated every minute", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: Brilliant acting", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: A boring plot", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: Wonderful story", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: Awful dialogue", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: I enjoyed it a lot", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: Not worth watching", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: Fantastic visuals", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: Poorly written", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: A delightful film", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: Painfully slow", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: Great soundtrack", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: Disappointing ending", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: Superb direction", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: A total waste", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: Heartwarming tale", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: Dull and lifeless", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: Loved the characters", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: Terrible pacing", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: A masterpiece", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: Could not finish it", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: Charming and fun", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: Badly acted", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: Inspiring message", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: Weak script", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: Beautiful cinematography", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: Overhyped mess", "response": "Answer: negative"}
+{"instruction": "Give the sentiment in one word: Touching performance", "response": "Answer: positive"}
+{"instruction": "Give the sentiment in one word: Forgettable story", "response": "Answer: negative"}

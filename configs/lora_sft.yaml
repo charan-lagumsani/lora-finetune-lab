@@ -1,0 +1,28 @@
+# LoRA SFT config — demo uses a tiny random model (no downloads).
+# For a real run: set model.name to a HuggingFace id (e.g. meta-llama/Llama-3.2-1B)
+# and optionally load_in_4bit: true (needs bitsandbytes + CUDA for QLoRA).
+seed: 42
+
+model:
+  name: "tiny-random"          # or any HF causal-LM id
+  load_in_4bit: false
+  tiny_config:
+    n_layer: 2
+    n_head: 2
+    n_embd: 128
+    n_positions: 128
+
+lora:
+  r: 8
+  alpha: 16
+  dropout: 0.05
+  target_modules: ["c_attn", "c_proj", "c_fc"]   # GPT-2 style; for LLaMA use ["q_proj","k_proj","v_proj","o_proj"]
+
+training:
+  epochs: 3
+  batch_size: 8
+  lr: 0.0005
+
+eval:
+  n_prompts: 5
+  max_new_tokens: 24
